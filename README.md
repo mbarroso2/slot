@@ -13,4 +13,4 @@ Lo ideal creo que seria tener un pool de conexiones para evitar unos dramas que 
 6) las validaciones de los input aún son muy basicas, solamente controlo lo requerido. No valido el contenido (proxima version)
 7) Aun no implemente nada de cuestiones de seguridad: Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL Injection, HTML Injection, Etc.
 8) El server que use fue un apache http
-9) Para correr el ejercicio es http://localhost/slot/index.php
+9) Para correr el ejercicio es http://localhost/slot
