@@ -15,7 +15,7 @@ class BaseDao {
     private $connectionDB;
     
     protected function openConnection(){
-        $this->connectionDB = mysqli_connect('localhost', 'root', '', 'slot');
+        $this->connectionDB = mysqli_connect('p:localhost', 'root', '', 'slot');
         if (!$this->connectionDB) {
             die('Could not connect to MySQL: ' . mysqli_connect_error());
         }
